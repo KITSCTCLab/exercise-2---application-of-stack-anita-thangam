@@ -6,6 +6,7 @@ class Evaluate:
       stack: A List which acts as a Stack.
   """
     # Write your code here
+    
 
 
   def __init__(self, size):
