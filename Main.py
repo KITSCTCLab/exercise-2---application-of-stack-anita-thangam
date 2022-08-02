@@ -12,7 +12,7 @@ class Evaluate:
     Arguments:
       size_of_stack: An integer to set the size of stack.
     """
-    
+    self.top = -1
     self.size = size
     self.lst = [None]*size
 
@@ -30,7 +30,7 @@ class Evaluate:
           
   def is_full(self):
     # Write code here
-    if self.top == (self.size - 1):
+   
       return 1
     else :
       return 0
