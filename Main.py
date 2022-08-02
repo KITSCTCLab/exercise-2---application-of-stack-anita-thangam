@@ -30,7 +30,7 @@ class Evaluate:
           
   def is_full(self):
     # Write code here
-     if self.top == (self.size - 1):
+    if self.top == (self.size - 1):
    
       return 1
     else :
